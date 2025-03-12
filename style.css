@@ -1,0 +1,75 @@
+* {
+  background-color: rgb(29, 23, 60);
+}
+
+/* .moon {
+  background-color: ;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 40px;
+  box-shadow: 40px -50px rgb(255, 248, 181);
+} */
+
+.sparkle {
+  height: 30px;
+  width: 20px;
+  margin-left: 200px;
+  background: #fffea9;
+  mask: radial-gradient(#00000000 71%, #000000 72%) 10000% 10000%/99.5% 99.5%;
+}
+
+.spark {
+  height: 30px;
+  width: 20px;
+  margin-left: 20px;
+  background: #fffea9;
+  mask: radial-gradient(#00000000 71%, #000000 72%) 10000% 10000%/99.5% 99.5%;
+}
+
+.spark2 {
+  height: 30px;
+  width: 20px;
+  margin-left: 150px;
+  background: #fffea9;
+  mask: radial-gradient(#00000000 71%, #000000 72%) 10000% 10000%/99.5% 99.5%;
+}
+.smmoon {
+  background-color: ;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px;
+  margin-left: 50px;
+  box-shadow: -10px -10px rgb(255, 248, 181);
+}
+
+.ground {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(14, 110, 142);
+  margin-top: 100px;
+  --mask: radial-gradient(
+        38.99px at 50% calc(100% + 18px),
+        #0000 calc(99% - 8px),
+        #000 calc(101% - 8px) 99%,
+        #0000 101%
+      )
+      calc(50% - 60px) calc(50% - 19px + 0.5px) / 120px 38px repeat-x,
+    radial-gradient(
+        38.99px at 50% -18px,
+        #0000 calc(99% - 8px),
+        #000 calc(101% - 8px) 99%,
+        #0000 101%
+      )
+      50% calc(50% + 19px) / 120px 38px repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+.form {
+  color: rgb(243, 168, 200);
+  margin-bottom: 50px;
+  border-style: dotted;
+  justify-content: flex-end;
+  padding: 20px 20px 20px 20px;
+}
